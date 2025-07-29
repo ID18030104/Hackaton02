@@ -1,8 +1,78 @@
-venv/
+# Fichiers générés par l'application
+session_data.pkl
+*.pkl
+*.pickle
+ai_docsearch_export_*.json
+
+# Fichiers de cache et temporaires
+*.tmp
+*.temp
+*.cache
+.cache/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Fichiers de données volumineux
+*.pdf
+*.docx
+*.txt
+uploads/
+documents/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+ENV/
+
+# Fichiers de configuration sensible
+config.py
+secrets.py
+.env
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de développement
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
-*.sqlite3
-*.db
+*.orig
+
+# Fichiers de logs
 *.log
-/.streamlit/
+logs/
+
+# Fichiers de modèles et embeddings (potentiellement volumineux)
+models/
+embeddings/
+
+# Fichiers de dépendances
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Fichiers de test
+.coverage
+htmlcov/
+.pytest_cache/
+test_output/
+
+# Fichiers spécifiques à Streamlit
+.streamlit/
+data/
+.streamlit/secrets.toml
+
+# Fichiers système
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Fichiers de documentation générés
+docs/_build/
