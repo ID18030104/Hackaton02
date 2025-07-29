@@ -2,6 +2,8 @@
 
 Une application de recherche sémantique intelligente pour vos documents, construite avec Streamlit et des modèles d'IA avancés.
 
+Voici le lien de la vidéo de présentation de la plateforme: https://youtu.be/59USzSNciLU .
+
 ## 🌟 Fonctionnalités
 
 - **Import Multi-format** : Support pour PDF, DOCX et TXT
